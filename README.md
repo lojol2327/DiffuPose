@@ -15,7 +15,7 @@ conda activate diffupose
 ```
 
 # Dataset setup
-Yo u can set up Human3.6M and HumanEva-I datasets following the [link](https://github.com/facebookresearch/VideoPose3D/blob/main/DATASETS.md) in the Videopose3D.
+You can set up Human3.6M and HumanEva-I datasets following the [link](https://github.com/facebookresearch/VideoPose3D/blob/main/DATASETS.md) in the Videopose3D.
 
 Alternatively, you can directly download data from [Google Drive](https://drive.google.com/file/d/12A3PCMrr5DvFjlYMUUZFqDaSvhdtlfm5/view?usp=share_link)  link.
 
