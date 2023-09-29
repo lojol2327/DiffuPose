@@ -15,10 +15,11 @@ conda activate diffupose
 ```
 
 # Dataset setup
-You can download 2D HR-Net detection, 2D ground-truth and 3D ground-truth on Human3.6M dataset via our [Google Drive](https://drive.google.com/file/d/12A3PCMrr5DvFjlYMUUZFqDaSvhdtlfm5/view?usp=share_link) link. (It is only a temporary link for review).
-Download them and unzip the .zip file in the ./data folder.
+Yo u can set up Human3.6M and HumanEva-I datasets following the [link](https://github.com/facebookresearch/VideoPose3D/blob/main/DATASETS.md) in the Videopose3D.
+Alternatively, you can directly download data from [Google Drive](https://drive.google.com/file/d/12A3PCMrr5DvFjlYMUUZFqDaSvhdtlfm5/view?usp=share_link)  link.
+You can download them and unzip the .zip file in the ./data folder.
+Make sure that your repository end up with './data/data_3d_h36m.npz', './data/data_2d_h36m_hr.npz', './data/data_2d_h36m_gt.npz'.
 
-You will end up with './data/data_3d_h36m.npz', './data/data_2d_h36m_hr.npz', './data/data_2d_h36m_gt.npz'.
 
 # Training from scratch
 If you want to train our model from scratch using HR-Net detection, please run
